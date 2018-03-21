@@ -10,7 +10,7 @@
 
 	<body class="inner-page">
 		<header class="main-header">
-			<nav class="main-navigation">
+			<nav class="main-navigation container">
 				<a class="main-header-logo" href="index.html">
 					<img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
 				</a>
@@ -34,62 +34,73 @@
 				<li class="breadcrumbs-current">Прайс-лист</li>
 			</ul>
 			<b class="price-list-promo">Истинно мужская классика</b>
-			<section class="brend">
-				<h2>Мы используем только лучшие средства:</h2>
-				<ul class="brend-list">
-					<li class="brend-item">Baxter of California</li>
-					<li class="brend-item">Mr Natty</li>
-					<li class="brend-item">Suavecito</li>
-					<li class="brend-item">Malin-Goetz</li>
-				</ul>
-			</section>
+			<div class="price-list-columns">
+				<section class="brend">
+					<h2>Мы используем только лучшие средства:</h2>
+					<ul class="brend-list">
+						<li class="brend-item">Baxter of California</li>
+						<li class="brend-item">Mr Natty</li>
+						<li class="brend-item">Suavecito</li>
+						<li class="brend-item">Malin-Goetz</li>
+					</ul>
+				</section>
 
-			<section class="price-list">
-				<h2>Цены на услуги наших мастеров:</h2>
-				<table>
-					<tr>
-						<td>Стрижка</td>
-						<td>1500 р.</td>
-					</tr>
-					<tr>
-						<td>Стрижка бороды</td>
-						<td>500 р.</td>
-					</tr>
-					<tr>
-						<td>Накрутка усов</td>
-						<td>350 р.</td>
-					</tr>
-				</table>
-			</section>
-
+				<section class="price-list">
+					<h2>Цены на услуги наших мастеров:</h2>
+					<table>
+						<tr>
+							<td>Стрижка</td>
+							<td>1500 р.</td>
+						</tr>
+						<tr>
+							<td>Стрижка бороды</td>
+							<td>500 р.</td>
+						</tr>
+						<tr>
+							<td>Накрутка усов</td>
+							<td>350 р.</td>
+						</tr>
+					</table>
+				</section>
+			</div>
 			<section class="about-us">
-				<h2>Несколько слов о наc:</h2>
-				<p>
-					Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
-				</p>
-				<p>
-					Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно.
-				</p>
+				<div class="price-list-columns">
+					<div class="price-columns-left">
+						<h2 class="columns-left-title">Несколько слов о наc:</h2>
+						<p>
+							Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+						</p>
+					</div>
+					<div class="price-columns-right">
+						<p>
+							Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно.
+						</p>
+					</div>
+				</div>
 			</section>
 		</main>
 
-		<footer class="main-footer">
-			<p class="footer-contacts">
-				Барбершоп «Бородинский»<br>
-				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-				<a href="map.html">Как нас найти?</a><br>
-				Телефон: +7 (495) 666-02-66
-			</p>
-			<div class="footer-social">
-				<b>Давайте дружить!</b>
-				<ul class="social-list">
-					<li><a class="social-button" href="#">В контакте</a></li>
-					<li><a class="social-button" href="#">Фэйсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
-				</ul>
+		<footer class="main-footer price-footer">
+			<div class="container">
+				<p class="footer-contacts">
+					Барбершоп «Бородинский»<br>
+					Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+					<a href="map.html">Как нас найти?</a><br>
+					Телефон: +7 (495) 666-02-66
+				</p>
+				<div class="footer-social">
+					<b>Давайте дружить!</b>
+					<ul class="social-list">
+						<li><a class="social-button" href="#">В контакте</a></li>
+						<li><a class="social-button" href="#">Фэйсбук</a></li>
+						<li><a class="social-button" href="#">Инстаграм</a></li>
+					</ul>
+				</div>
+				<p class="footer-copyright">
+					<b>Разработано:</b><br>
+					<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+				</p>
 			</div>
-			<b>Разработано:</b>
-			<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
 		</footer>
 
 		<section class="modal modal-login">

@@ -223,7 +223,7 @@ a {
 .page-title {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 19px;
+	margin-bottom: 20px;
 
 	font-size: 30px;
 	line-height: 42px;
@@ -424,20 +424,38 @@ a {
 /*Страница прайс-лист*/
 
 .price-list-promo {
+	display: inline-block;
+	margin-bottom: 70px;
 	font-size: 48px;
 	line-height: 48px;
 	text-align: center;
 }
 
+.price-list-columns {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.brend {
+	width: 300px;
+}
+
 .brend h2,
 .price-list h2,
 .about-us h2 {
+	margin: 0;
+	padding: 0;
 	font-size: 24px;
 	line-height: 30px;
 }
 
 .brend-list {
 	list-style: none;
+}
+
+.price-list {
+	width: 460px;
 }
 
 .price-list table {
@@ -455,6 +473,14 @@ a {
 
 .price-list td:last-child {
 	text-align: center;
+}
+
+.price-columns-left {
+	width: 400px;
+}
+
+.price-columns-right {
+	width: 460px;
 }
 
 
@@ -475,6 +501,10 @@ a {
 
 .inner-page .main-footer {
 	margin-top: 49px;
+}
+
+.price-footer {
+	margin-top: 18px;
 }
 
 .main-footer .container {
